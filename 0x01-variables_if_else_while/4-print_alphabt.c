@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - print the alphabet in lowercase,
+ * main - prints the alphabet in lowercase,
  * followed by a new line, except q and e
- * Return: Always 0 (Success)
+ * Return: Aways 0 (Sucess)
  */
 int main(void)
 {
 char ch = 'a';
 
-while (ch <= 'z';)
+while (ch <= 'z')
 {
 if (ch != 'e' && ch != 'q')
 {
