@@ -31,7 +31,7 @@ printf("%d", z);
 }
 else
 {
-printf(" %d, z");
+printf(" %d", z);
 }
 }
 printf("\n");
