@@ -1,0 +1,1 @@
+ libholberton.a is a static library.
