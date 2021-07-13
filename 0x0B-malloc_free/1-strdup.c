@@ -21,7 +21,7 @@ return (NULL);
 while (str[len])
 len++;
 
-dup = malloc(sizeof(char) * (len + i));
+dup = malloc(sizeof(char) * (len + 1));
 
 if (dup == NULL)
 return (NULL);
