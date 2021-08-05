@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_binary - prints the binary equivalent of a decimal number
@@ -6,12 +6,12 @@
  */
 void print_binary(unsigned long int n)
 {
-	int i, count = 0;
+	int p, count = 0;
 	unsigned long int current;
 
-	for (i = 63; i >= 0; i--)
+	for (p = 63; p >= 0; p--)
 	{
-		current = n >> i;
+		current = n >> p;
 
 		if (current & 1)
 		{
